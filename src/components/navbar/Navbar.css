@@ -1,0 +1,19 @@
+/** @format */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  background-color: white;
+  padding: 32px;
+  box-shadow: 15px 15px 15px blueviolet;
+}
+.container .active {
+  font-weight: 800;
+}
+.container a {
+
+  color: blueviolet;
+  text-decoration: none;
+}
